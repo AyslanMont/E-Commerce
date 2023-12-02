@@ -9,4 +9,44 @@ body {
 }
 .Container {
     display: flex;
+    height: 100%;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem 1rem 4rem;
+    border-bottom: 0.1rem solid black;
+    height: 6rem;
+    width: 100%;
+}
+
+header nav a {
+    margin: 2rem;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+
+}
+
+header #lupa {
+    width: 2rem;
+    
+}
+
+header #logo {
+    width: 4rem;
+    
+}
+
+section {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 100%;
 }
