@@ -46,20 +46,16 @@ header #logo {
 
 section {
     display: flex;
-    flex-grow: 1;
-    flex-shrink: 1;
-    height: 100%;
-}
-.boas_vindas{
-    display: flex;
     border-bottom: 0.1rem solid black;
     flex-grow: 1;
     flex-shrink: 1;
     background-color: rgb(224, 222, 222);
     justify-content: space-around;
     align-items: center;
-}
+    height: 100%;
 
+}
+    
 .texto button{
     width: 15rem;
     height: 4rem;
@@ -69,6 +65,7 @@ section {
     font-size: 1.6rem;
 }
 .texto p{
+    margin-bottom: 3rem;
     font-size: 3rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
