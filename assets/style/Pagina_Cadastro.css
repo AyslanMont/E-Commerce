@@ -90,6 +90,7 @@ p {
     border-radius: 2rem;
     width: 15rem;
     height: 3rem;
+    border: 0.1rem solid black;
 }
 
 input {
