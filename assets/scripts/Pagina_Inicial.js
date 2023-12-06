@@ -1,3 +1,3 @@
 function erro(){
-    alert("ERRO, JAVASCRIPT NÂO CARREGADO");
+    alert("ERRO, JAVASCRIPT NÃO CARREGADO");
 }
