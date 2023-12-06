@@ -1,0 +1,124 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.Container {
+    display: flex;
+    height: 100%;
+    /* flex-wrap: wrap ; */
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-shrink: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 4rem 1rem 4rem;
+    border-bottom: 0.1rem solid black;
+    height: 3rem;
+}
+
+header nav a {
+    margin: 2rem;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+
+}
+
+.Produtos_main {
+    display: flex;
+    flex-grow: 1;
+    height: 50%;
+    background-color: rgb(224, 222, 222);
+    padding: 2rem;
+}
+
+.Produtos_novos {
+    display: flex;
+    flex-grow: 1;
+    height: 50%;
+    background-color: rgb(224, 222, 222);
+    padding: 2rem;
+
+}
+
+button {
+    cursor: pointer;
+    border-radius: 2rem;
+    width: 15rem;
+    height: 3rem;
+    border:  transparent;
+}
+
+.Produto {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    background-color: white;
+    margin: 1rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Produto_novo {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 20rem;
+    background-color: white;
+    margin: 1rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Produto img {
+    width: 20rem;
+}
+
+.Produto_novo img {
+    width: 20rem;
+}
+
+.Produto h1 {
+    color: red;
+    font-size: x-large;
+    margin: 0;
+}
+
+.Produto_novo h1 {
+    color: red;
+    font-size: x-large;
+    margin: 0;
+}
+.Produto h2 {
+    color: blue;
+    font-size: x-large;
+    margin: 0;
+}
+
+.Produto_novo h2 {
+    color: blue;
+    font-size: x-large;
+    margin: 0;
+}
+
+#Titulo_novos_produtos {
+    display: flex;
+    padding-left: 3rem;
+    background-color: rgb(224, 222, 222);
+}
+#Titulo_novos_produtos h1 {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}

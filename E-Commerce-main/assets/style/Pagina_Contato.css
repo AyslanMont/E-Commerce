@@ -1,0 +1,83 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.Container {
+    display: flex;
+    height: 100%;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem 1rem 4rem;
+    border-bottom: 0.1rem solid black;
+    height: 6rem;
+    width: 100%;
+}
+
+header nav a {
+    margin: 2rem;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+
+}
+header #lupa {
+    width: 2rem;
+    
+}
+
+
+header #logo {
+    width: 4rem;
+    
+}
+section {
+    display: flex;
+    border-bottom: 0.1rem solid black;
+    background-color: rgb(224, 222, 222);
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.foto{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 25rem;
+    height: 25rem;
+}
+.div_da_img h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.div_da_img{
+    margin-top: 7rem;
+}
+#texto{
+    width: 80%;
+}
+#texto p{
+    font-size: 2rem;
+}
+
+.imgs_contato{
+    margin-left: 3.5rem;
+}
+.imgs_contato{
+    cursor: pointer;
+    height: 3rem;
+}

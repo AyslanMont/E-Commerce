@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f2f3f4;
+    display: flex;
+    flex-flow: row  wrap;
+    padding: 2%;
+    justify-content: space-between;
+}
+
+/* header {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem 1rem 4rem;
+    border-bottom: 0.1rem solid black;
+    height: 6rem;
+    width: 100%;
+    font-family: 'Times New Roman';
+}
+
+header nav a {
+    margin: 2rem;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+
+}
+
+header #lupa {
+    width: 2rem;
+    
+}
+
+header #logo {
+    width: 4rem;
+    
+} */
+
+.compras {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    padding: 1%;
+    flex-flow: row wrap;
+    background-color: white;
+    margin-top: 6%;
+}
+
+.compras h3 {
+    width: 80%;
+}
+
+.btn-limparCarrinho {
+    width: 20%;
+    font-weight: bold;
+    color: red;
+    border: 2px solid red;
+    padding: 1%;
+    background-color: white;
+}
+
+.valorTotal {
+    margin-left: 70%;
+    margin-top: 10%;
+}
+
+.produto {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 10%;
+    padding: 3%;
+    justify-content: space-around;
+    border-bottom: 1px solid lightgray;
+}
+
+.produto img {
+    width: 10%;
+}
+
+.produto h4 {
+    width: 50%;
+}
+
+.produto input {
+    border: 1px solid black;
+    width: 10%;
+    height: 30%;
+    text-align: center;
+}
+
+.preçoProduto {
+    width: 10%;
+}
+
+.preçoProduto b {
+    color: blue;
+}
+
+.codigoProduto {
+    opacity: 0.6;
+    margin-left: 5%;
+}
+
+.produto button {
+    margin-top: 5%;
+    background-color: #ffffff;
+    font-weight: bold;
+    color: red;
+}
+
+.subtotal {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    padding: 1%;
+    flex-flow: row wrap;
+    background-color: white;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.subtotal h3 {
+    margin-top: 5%;
+    font-size: 32px;
+}
+
+.subtotal .valor {
+    margin-top: 25%;
+}
+
+.subtotal .valorTotal {
+    border-top: 1px solid lightgray;
+}
+
+.subtotal .valor, .subtotal .valorFrete, .subtotal .valorTotal{
+    width: 100%;
+    margin-left: 5%;
+    padding-top: 10%;
+}
+
+.subtotal button {
+    width: 80%;
+    padding: 5%;
+    margin-top: 25%;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: red;
+}
+
+.frete {
+    display: flex;
+    width: 67%;
+    height: 35vh;
+    margin-top: 5%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+}
+
+.frete h3 {
+    margin-top: 5%;
+    margin-left: 3%;
+    width: 100%;
+}
+
+.frete input {
+    width: 70%;
+    margin-top: 4%;
+    border: 1px solid black;
+    height: 25%;
+}
+
+.frete button {
+    width: 15%;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    height: 30%;
+    margin-top: 3%;
+}
+
+.frete p {
+    background-color: white;
+    color: gray;
+    margin-right: 77%;
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+.frete + button {
+    width: 35%;
+    margin-top: 6%;
+    border: 2px solid red;
+    color: red;
+    background-color: #ffffff;
+    font-weight: bold;
+    height: 10vh;
+    margin-left: 32%;
+}
+
