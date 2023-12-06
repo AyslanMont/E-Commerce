@@ -62,12 +62,22 @@ section {
 }
 .div_da_img h1{
     text-align: center;
+    font-size: 3rem;
+}
+.div_da_img{
+    margin-top: 7rem;
 }
 #texto{
-    width: 100rem;
+    width: 80%;
 }
 #texto p{
     font-size: 2rem;
+}
 
-
+.imgs_contato{
+    margin-left: 3.5rem;
+}
+.imgs_contato{
+    cursor: pointer;
+    height: 3rem;
 }
