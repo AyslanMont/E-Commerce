@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f2f3f4;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 2%;
+    justify-content: space-between;
+}
+
+/* header {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    border-bottom: 0.1rem solid black;
+    height: 6rem;
+    width: 100%;
+}
+
+header nav a {
+    margin: 2rem;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+
+}
+
+header #lupa {
+    width: 2rem;
+    
+}
+
+header #logo {
+    width: 4rem;
+    
+} */
+
+.compras {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    padding: 1%;
+    flex-flow: row wrap;
+    background-color: white;
+}
+
+.compras h3 {
+    width: 80%;
+}
+
+.btn-limparCarrinho {
+    width: 20%;
+    font-weight: bold;
+    color: red;
+    border: 2px solid red;
+    padding: 1%;
+    background-color: white;
+}
+
+.valorTotal {
+    margin-left: 70%;
+    margin-top: 10%;
+}
+
+.produto {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 10%;
+    padding: 3%;
+    justify-content: space-around;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.produto img {
+    width: 10%;
+}
+
+.produto h4 {
+    width: 50%;
+}
+
+.produto input {
+    border: 1px solid black;
+    width: 10%;
+    height: 30%;
+    text-align: center;
+}
+
+.preçoProduto {
+    width: 10%;
+}
+
+.preçoProduto b {
+    color: blue;
+}
+
+.codigoProduto {
+    opacity: 0.6;
+    margin-left: 5%;
+}
+
+.produto button {
+    margin-top: 5%;
+    background-color: #ffffff;
+    font-weight: bold;
+    color: red;
+}
+
+.subtotal {
+    width: 15%;
+    height: 100%;
+    background-color: white;
+}
