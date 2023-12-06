@@ -9,7 +9,7 @@
 body {
     background-color: #f2f3f4;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row  wrap;
     padding: 2%;
     justify-content: space-between;
 }
@@ -20,10 +20,11 @@ body {
     flex-shrink: 1;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 4rem;
+    padding: 1rem 4rem 1rem 4rem;
     border-bottom: 0.1rem solid black;
     height: 6rem;
     width: 100%;
+    font-family: 'Times New Roman';
 }
 
 header nav a {
@@ -45,12 +46,13 @@ header #logo {
 } */
 
 .compras {
-    width: 75%;
+    width: 65%;
     height: 100%;
     display: flex;
     padding: 1%;
     flex-flow: row wrap;
     background-color: white;
+    margin-top: 6%;
 }
 
 .compras h3 {
@@ -77,7 +79,6 @@ header #logo {
     margin-top: 10%;
     padding: 3%;
     justify-content: space-around;
-    border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
 }
 
@@ -117,7 +118,92 @@ header #logo {
 }
 
 .subtotal {
-    width: 15%;
+    width: 25%;
     height: 100%;
+    display: flex;
+    padding: 1%;
+    flex-flow: row wrap;
     background-color: white;
+    justify-content: center;
+    margin-top: 6%;
 }
+
+.subtotal h3 {
+    margin-top: 5%;
+    font-size: 32px;
+}
+
+.subtotal .valor {
+    margin-top: 25%;
+}
+
+.subtotal .valorTotal {
+    border-top: 1px solid lightgray;
+}
+
+.subtotal .valor, .subtotal .valorFrete, .subtotal .valorTotal{
+    width: 100%;
+    margin-left: 5%;
+    padding-top: 10%;
+}
+
+.subtotal button {
+    width: 80%;
+    padding: 5%;
+    margin-top: 25%;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: red;
+}
+
+.frete {
+    display: flex;
+    width: 67%;
+    height: 35vh;
+    margin-top: 5%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+}
+
+.frete h3 {
+    margin-top: 5%;
+    margin-left: 3%;
+    width: 100%;
+}
+
+.frete input {
+    width: 70%;
+    margin-top: 4%;
+    border: 1px solid black;
+    height: 25%;
+}
+
+.frete button {
+    width: 15%;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    height: 30%;
+    margin-top: 3%;
+}
+
+.frete p {
+    background-color: white;
+    color: gray;
+    margin-right: 77%;
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+.frete + button {
+    width: 35%;
+    margin-top: 6%;
+    border: 2px solid red;
+    color: red;
+    background-color: #ffffff;
+    font-weight: bold;
+    height: 10vh;
+    margin-left: 32%;
+}
+
