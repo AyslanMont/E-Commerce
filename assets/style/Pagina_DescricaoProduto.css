@@ -1,0 +1,129 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    height: 10rem;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem 1rem 4rem;
+    border-bottom: 0.1rem solid black;
+    height: 6rem;
+    width: 100%;
+}
+
+header nav a {
+    margin: 2rem;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+
+}
+
+header #lupa {
+    width: 2rem;
+    
+}
+
+header #logo {
+    width: 4rem;
+    
+}
+
+.cart-icon, .user-icon {
+    width: 4rem;
+}
+
+.box_produto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+    background-color: gainsboro;
+}
+.imagemproduto{
+    height: 60vh;
+    width: 45%;
+}
+.informacoes{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    width: 45%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    background-color: white;
+}
+.preco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 15%;
+    background-color: gainsboro;
+}
+.traco{
+    width: 50%;
+    color: gray;
+
+}
+.botoes{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+}
+.botoes button{
+  width: auto;
+  height: 5rem;
+  border-radius: 2rem;
+  border: none;
+  color: white;
+  background-color: orange;
+  font-size: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.detalhes{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  width: 45%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  background-color: white;
+}
+.detalhes_produto span{
+  color: blue;
+  text-align: left;
+}
+.descricao{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  width: 45%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  background-color: white;
+}
