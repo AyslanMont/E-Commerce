@@ -3,18 +3,15 @@
     border: 0;
     padding: 0;
     box-sizing: 0;
-    font-family: sans-serif;
 }
 
 body {
-    background-color: #f2f3f4;
     display: flex;
-    flex-flow: row  wrap;
-    padding: 2%;
-    justify-content: space-between;
+    flex-flow: row wrap;
+    background-color: #f2f3f4;
 }
 
-/* header {
+header {
     display: flex;
     flex-grow: 1;
     flex-shrink: 1;
@@ -25,6 +22,7 @@ body {
     height: 6rem;
     width: 100%;
     font-family: 'Times New Roman';
+    background-color: #ffffff;
 }
 
 header nav a {
@@ -35,6 +33,13 @@ header nav a {
 
 }
 
+header input {
+    height: 3rem;
+    width: 10rem;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
 header #lupa {
     width: 2rem;
     
@@ -43,7 +48,17 @@ header #lupa {
 header #logo {
     width: 4rem;
     
-} */
+}
+
+.container {
+    background-color: #f2f3f4;
+    display: flex;
+    flex-flow: row  wrap;
+    padding: 2%;
+    height: 100%;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
 
 .compras {
     width: 65%;
@@ -53,6 +68,8 @@ header #logo {
     flex-flow: row wrap;
     background-color: white;
     margin-top: 6%;
+    border: 1px solid lightgray;
+    border-radius: 15px;
 }
 
 .compras h3 {
@@ -119,13 +136,15 @@ header #logo {
 
 .subtotal {
     width: 25%;
-    height: 100%;
+    height: 80vh;
     display: flex;
     padding: 1%;
     flex-flow: row wrap;
     background-color: white;
     justify-content: center;
     margin-top: 6%;
+    border: 1px solid lightgray;
+    border-radius: 15px;
 }
 
 .subtotal h3 {
@@ -158,12 +177,14 @@ header #logo {
 
 .frete {
     display: flex;
-    width: 67%;
-    height: 35vh;
-    margin-top: 5%;
+    width: 100%;
+    height: 50vh;
+    margin-top: 4%;
     flex-flow: row wrap;
     justify-content: space-around;
     background-color: #FFFFFF;
+    border-radius: 15px;
+    border: 1px solid lightgray;
 }
 
 .frete h3 {
@@ -173,10 +194,9 @@ header #logo {
 }
 
 .frete input {
-    width: 70%;
-    margin-top: 4%;
+    width: 60%;
     border: 1px solid black;
-    height: 25%;
+    height: 15%;
 }
 
 .frete button {
@@ -184,20 +204,20 @@ header #logo {
     font-weight: bold;
     background-color: black;
     color: white;
-    height: 30%;
-    margin-top: 3%;
+    height: 20%;
 }
 
-.frete p {
+.frete a p {
     background-color: white;
     color: gray;
-    margin-right: 77%;
+    margin-left: -90%;
     margin-top: 5%;
     font-weight: bold;
+    width: 30vw;
 }
 
-.frete + button {
-    width: 35%;
+.btnFinalizar {
+    width: 25vw;
     margin-top: 6%;
     border: 2px solid red;
     color: red;
@@ -207,3 +227,8 @@ header #logo {
     margin-left: 32%;
 }
 
+.btn-limparCarrinho:hover, .btnFinalizar:hover {
+    color: white;
+    background-color: red;
+    transition: 50ms;
+}
