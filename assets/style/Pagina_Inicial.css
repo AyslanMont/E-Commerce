@@ -89,3 +89,28 @@ section {
     padding: 0.5rem;
     width: 25rem;
 }
+
+.menu {
+    display: none;
+}
+
+.menu_layout {
+    display: none;
+}
+@media (min-width: 768px) and (max-width: 1366px){
+    header nav {
+        display: none;
+    }
+
+.cart-icon, .user-icon {
+    display: none;
+    }
+.menu {
+    display: block;
+    width: 3rem;
+    margin-left: 30rem;
+    
+}
+
+
+}
