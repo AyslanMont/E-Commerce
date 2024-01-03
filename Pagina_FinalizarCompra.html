@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <img src="assets/imgs/logo_marca.png" onclick="erro()" id="logo">
+        <img src="assets/imgs/logo_marca.png" id="logo">
         <nav>
             <a href="Pagina_Inicial.html">Início</a>
             <a href="">Sobre</a>
@@ -19,7 +19,7 @@
         </nav>
         <div class="Search">
             <input type="text" placeholder="Pesquisar">
-            <img src="assets/imgs/lupa.png" onclick="erro()" id="lupa">
+            <img src="assets/imgs/lupa.png" id="lupa">
         </div>
     </header>
 
@@ -31,7 +31,8 @@
         <h2 class="valorFrete">R$ 152,70</h2>
         <h2 class="total">TOTAL</h2>
         <h2 class="valorTotal">R$ 1152,70</h2>
-        <button class="btn">FINALIZAR COMPRA</button>
+        <button class="btn" onclick="final()">FINALIZAR COMPRA</button>
     </div>
+    <script src="assets/scripts/Pagina_FinalizarCompra.js"></script>
 </body>
 </html>
